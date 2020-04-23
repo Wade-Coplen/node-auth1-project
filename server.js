@@ -15,8 +15,8 @@ const server = express()
 
 //create a config object for express session
 const sessionConfig = {
-    name: '',
-    secret: '',
+    name: 'effmerunning',
+    secret: 'wabashcounty',
     cookie: {
         maxAge: 3600 * 1000,
         secure: false,
